@@ -1,0 +1,25 @@
+#+title: Title
+#+date:
+#+email: qiulin@ihep.ac.cn
+#+author: Lin Qiu
+# #+latex_header: \usepackage{ctex}
+#+latex_header: \usepackage{hyperref}
+#+latex_header: \hypersetup{colorlinks,citecolor=black,filecolor=black,linkcolor=black,urlcolor=black}
+#+latex_header: \usepackage[margin=1.5in]{geometry}
+
+
+* Section 1
+** subsection 1
+ssss
+
+#+ATTR_LATEX: :options frame=single
+#+begin_src python :style
+import numpy as np
+np.sum(np.array([1,2,3,4]))
+#+end_src
+
+
+* Section 2
+** subsection 1
+
+ssss
